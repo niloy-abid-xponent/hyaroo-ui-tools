@@ -1,263 +1,181 @@
-
-export const heroCopy = {
-	headline: "Hire Top Talented Remote & Freelancer From Asia",
-	subheadline:
-		"Whether you’re in start-up mode, in a growth phase, or just want more freedom to fucason the big picture, e give you immediate access to the highly-trained remote workers you need to make it happen.",
-	image: {
-		src: "/img/home/hero.png",
-		alt: "XPONENT ",
-	},
-	cta: {
-		href: "/",
-		text: "Post a job for free",
-	},
-	ctaTwo: {
-		href: "/",
-		text: "Recruitment Only",
-	},
-};
-
-export const partnersLogo = [
-	{
-		src: "/img/home/partners/google.svg",
-		alt: "google ",
-	},
-	{
-		src: "/img/home/partners/microsoft.svg",
-		alt: "microsoft ",
-	},
-	{
-		src: "/img/home/partners/paypal.svg",
-		alt: "paypal ",
-	},
-	{
-		src: "/img/home/partners/netflix.svg",
-		alt: "netflix ",
-	},
-	{
-		src: "/img/home/partners/yahoo.svg",
-		alt: "yahoo ",
-	},
-	{
-		src: "/img/home/partners/facebook.svg",
-		alt: "facebook ",
-	},
+export const marketingDatas = [
+  {
+    title: "Page Section",
+    sections: [
+      { title: "Hero Sections", description: "9 components" },
+      { title: "Feature Sections", description: "10 components" },
+      { title: "CTA Sections", description: "8 components" },
+      { title: "Pricing Sections", description: "9 components" },
+      { title: "Header Sections", description: "5 components" },
+      { title: "FAQs", description: "9 components" },
+      { title: "Newsletter Sections", description: "6 components" },
+      { title: "Stats", description: "4 components" },
+      { title: "Testimonials", description: "5 components" },
+      { title: "Blog Sections", description: "3 components" },
+      { title: "Contact Sections", description: "7 components" },
+      { title: "Team Sections", description: "8 components" },
+      { title: "Content Sections", description: "6 components" },
+      { title: "Footers", description: "7 components" },
+      { title: "Logo Clouds", description: "5 components" },
+    ],
+  },
+  {
+    title: "Elements",
+    sections: [
+      { title: "Headers", description: "5 components" },
+      { title: "Banners", description: "4 components" },
+      { title: "Flyout Menus", description: "6 components" },
+    ],
+  },
+  {
+    title: "Feedback",
+    sections: [{ title: "404 Pages", description: "6 components" }],
+  },
+  {
+    title: "Page Examples",
+    sections: [
+      { title: "Landing Pages", description: "3 components" },
+      { title: "Pricing Pages", description: "6 components" },
+      { title: "Contact Pages", description: "4 components" },
+    ],
+  },
 ];
-
-export const getProfessionalsData = {
-	title: "Get Professionals by expertise",
-	description:
-		"Over 100,000 talented, trusted and highly-trained remote workers have joined Hyaroo and are ready to work with you full-time, helping your startup grow in the most cost-effective way possible",
-
-	items: [
-		{
-			src: "/img/icons/digital-marketing.svg",
-			alt: "digital marketing",
-			name: "Digital Marketing",
-		},
-		{
-			src: "/img/icons/writing-translation.svg",
-			alt: "writing & translation ",
-			name: "Writing & Translation",
-		},
-		{
-			src: "/img/icons/creative-and-design.svg",
-			alt: "creative & design ",
-			name: "Creative & Design",
-		},
-		{
-			src: "/img/icons/admin-support.svg",
-			alt: "admin support",
-			name: "Admin Support",
-		},
-		{
-			src: "/img/icons/data-analysis.svg",
-			alt: "data analysis ",
-			name: "Data Analytics",
-		},
-		{
-			src: "/img/icons/project-management.svg",
-			alt: "project management",
-			name: "Project Management",
-		},
-		{
-			src: "",
-			alt: "",
-			name: "View All",
-		},
-	],
-};
-
-export const topprofessionalsdata = {
-	title: "Top Professionals",
-	description:
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus tristique ipsum id tristique, Vivamus gravida, purus et molestie tempus.",
-	items: [
-		{
-			name: 'Tom Hellan',
-			role: 'Co-Founder',
-			roleicon: '/img/icons/ui-designer.svg',
-			imageUrl:
-				'/img/home/team/team.jpg',
-		},
-		{
-			name: 'Mark Thomas',
-			role: 'Co-Founder',
-			roleicon: '/img/icons/project-manager.svg',
-			imageUrl:
-			'/img/home/team/team2.jpg',
-		},
-		{
-			name: 'Chriss Nariss',
-			role: 'HR Manager',
-			roleicon: '/img/icons/finance-expert.svg',
-			imageUrl:
-			'/img/home/team/team3.jpg',
-		},
-		{
-			name: 'Tom Hellan',
-			role: 'Team Leader',
-			roleicon: '/img/icons/ui-designer.svg',
-			imageUrl:
-			'/img/home/team/team4.jpg',
-		},
-		{
-			name: 'Mark Thomas',
-			role: 'Team Leader',
-			roleicon: '/img/icons/ui-designer.svg',
-			imageUrl:
-			'/img/home/team/team5.jpg',
-		}, 
-	]
-	 
-}
-
-export const qualitydata = {
-	title: "Our quality-first focus provides you with spectacular staff",
-	description:
-		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus tristique ipsum id tristique, Vivamus gravida, purus et molestie tempus.",
-	src: '/img/home/quality-first-focus.jpg',
-	alt: 'quality first focus',
-	items: [
-		{
-		name: 'Vetted Professionals',
-		description: 'All workers are carefully screened to ensure only skilled, qualified, trustworthy workers make the cut.',
-		icon: '/img/icons/vetted-professionals.svg',
-		},
-		{
-		name: 'Long-Term Basis',
-		description:
-			'Our staff focus on forming close, long-term relationships so that they become trustworthy members of your team.',
-		icon: '/img/icons/long-term-basis.svg',
-		},
-		{
-		name: 'Direct Communication',
-		description:
-			'Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.',
-		icon: '/img/icons/direct-communication.svg',
-		},
-		{
-		name: 'Exceptional Support',
-		description:
-			'Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.',
-		icon: '/img/icons/exceptional-support.svg',
-		},
-		{
-		name: 'Fluent and Educated',
-		description:
-			'Our professionals are university-trained, proficient in English, and dedicated to supporting you and your business',
-		icon: '/img/icons/fluent-educated.svg',
-		},
-		{
-		name: 'Built to ensure your success',
-		description:
-			'From direct hiring and recruitment to employee monitoring and done-for-you payroll, our complete range of hiring solutions ensure your experience with remote staff hiring is a huge success',
-		icon: '/img/icons/build-to-ensure-success.svg',
-		},
-	] 
-}
-
-export const hirepaydata = {
-	title: "Hire & pay remote workers directly",
-	description:
-		"Create job posts and receive applications from our pool of pre-vetted professionals from Bangladesh. Then, hire the right one and work with them directly",
-	items: [
-		{
-		name: 'Post your job (It’s free)',
-		description: 'Whether you’re in start-up mode, in a growth phase, or just want big more freedom to fucason the you immediate.',
-		src: '/img/icons/post-your-job.svg',
-		alt: 'post your job',
-		},
-		{
-		name: 'Review proposals',
-		description: 'Whether you’re in start-up mode, in a growth phase, or just want big more freedom to fucason the you immediate.',
-		src: '/img/icons/review-proposals.svg',
-		alt: 'review proposals',
-		},
-		{
-		name: 'Hire your Staff',
-		description: 'Whether you’re in start-up mode, in a growth phase, or just want big more freedom to fucason the you immediate.',
-		src: '/img/icons/hire-your-staff.svg',
-		alt: 'hire your staff',
-		},
-		
-	] 
-}
-
-export const testimonialsdata = {
-	title: "Don't take our word for it.",
-	description:
-		"We asked our customers what changed for the better since switching to Coditic. Here’s what they had to say.",
-	items: [
-		{
-			imageUrl:
-			'/img/home/user-image-quote.jpg',
-			quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis nisi id sapien sagittis rutrum. Aliquam lectus quam, molestie',
-			name: 'Nicole Theus',
-			role: 'Head of Design',
-		},
-		{
-			imageUrl:
-			'/img/home/user-image-quote2.jpg',
-			quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis nisi id sapien sagittis rutrum. Aliquam lectus quam, molestie',
-			name: 'Nicole Theus',
-			role: 'Head of Design',
-		},
-		{
-			imageUrl:
-			'/img/home/user-image-quote3.jpg',
-			quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis nisi id sapien sagittis rutrum. Aliquam lectus quam, molestie',
-			name: 'Nicole Theus',
-			role: 'Head of Design',
-		},
-	] 
-}
-
-export const faqs = [
-	{
-	  question: "Why can’t I contact workes foe free?",
-	  answer:
-		"A free account allows you to post as many jobs as you like and view applications to your posted jobs. This allows you to know that you’ll find a great fit at absolutely no cost or risk. You only need to pay once you want to proceed with a certain individual.",
-	},
-	{
-	  question: "Why can’t I contact workes foe free?",
-	  answer:
-		"A free account allows you to post as many jobs as you like and view applications to your posted jobs. This allows you to know that you’ll find a great fit at absolutely no cost or risk. You only need to pay once you want to proceed with a certain individual.",
-	},
-	{
-	  question: "Why can’t I contact workes foe free?",
-	  answer:
-		"A free account allows you to post as many jobs as you like and view applications to your posted jobs. This allows you to know that you’ll find a great fit at absolutely no cost or risk. You only need to pay once you want to proceed with a certain individual.",
-	},
-	
+export const applicationUIDatas = [
+  {
+    title: "Application Shells",
+    sections: [
+      { title: "Stacked Layouts", description: "9 components" },
+      { title: "Sidebar Layouts", description: "8 components" },
+      { title: "Multi-Columns", description: "7 components" },
+    ],
+  },
+  {
+    title: "Headings",
+    sections: [
+      { title: "Page Headings", description: "11 components" },
+      { title: "Card Headings", description: "6 components" },
+      { title: "Sections Headings", description: "10 components" },
+    ],
+  },
+  {
+    title: "Data Display",
+    sections: [
+      { title: "Description Lists", description: "5 components" },
+      { title: "Stats", description: "3 components" },
+      { title: "Calendars", description: "8 components" },
+    ],
+  },
+  {
+    title: "Lists",
+    sections: [
+      { title: "Tables", description: "16 components" },
+      { title: "Stacked Lists", description: "8 components" },
+      { title: "Grid Lists", description: "6 components" },
+      { title: "Feeds", description: "3 components" },
+    ],
+  },
+  {
+    title: "Forms",
+    sections: [
+      { title: "Form Layouts", description: "5 components" },
+      { title: "Input Groups", description: "20 components" },
+      { title: "Select Menus", description: "7 components" },
+      { title: "Sign-in and Registration", description: "3 components" },
+      { title: "Textareas", description: "5 components" },
+      { title: "Radio Groups", description: "12 components" },
+      { title: "Checkboxes", description: "4 components" },
+      { title: "Toggles", description: "5 components" },
+      { title: "Action Panels", description: "8 components" },
+      { title: "Comboxes", description: "5 components" },
+    ],
+  },
+  {
+    title: "Feedback",
+    sections: [
+      { title: "Alerts", description: "6 components" },
+      { title: "Empty States", description: "6 components" },
+    ],
+  },
+  {
+    title: "Navigation",
+    sections: [
+      { title: "Navbars", description: "11 components" },
+      { title: "Pagination", description: "3 components" },
+      { title: "Tabs", description: "8 components" },
+      { title: "Vertical Navigation", description: "6 components" },
+      { title: "Sidebar Navigation", description: "8 components" },
+      { title: "Breadcrumbs", description: "4 components" },
+      { title: "Steps", description: "8 components" },
+      { title: "Command Palettes", description: "9 components" },
+    ],
+  },
+  {
+    title: "Overlays",
+    sections: [
+      { title: "Modals", description: "6 components" },
+      { title: "Slide-overs", description: "12 components" },
+      { title: "Notifications", description: "6 components" },
+    ],
+  },
+  {
+    title: "Elements",
+    sections: [
+      { title: "Avatars", description: "11 components" },
+      { title: "Dropdowns", description: "5 components" },
+      { title: "Badges", description: "7 components" },
+      { title: "Buttons", description: "7 components" },
+      { title: "Button Groups", description: "5 components" },
+    ],
+  },
+  {
+    title: "Layout",
+    sections: [
+      { title: "Containers", description: "5 components" },
+      { title: "Panels", description: "10 components" },
+      { title: "List Containers", description: "7 components" },
+      { title: "Media Objects", description: "8 components" },
+      { title: "Dividers", description: "8 components" },
+    ],
+  },
+  {
+    title: "Page Examples",
+    sections: [
+      { title: "Home Screens", description: "5 components" },
+      { title: "Detail Screens", description: "6 components" },
+      { title: "Settings Screens", description: "5 components" },
+    ],
+  },
 ];
-
-export const cta = {
-	title: "Ready to hire remote to scale up your business to the next level?",
-	description: "We've taken every measure to guarantee quality throughout the remote staff hireing process.",
-	text1: "Post a job free",
-	url1: "#",
-	text2: "Recruitment Only",
-	url2: "#",
-}
-
+export const eCommerceDatas = [
+  {
+    title: "Components",
+    sections: [
+      { title: "Product Overviews", description: "5 components" },
+      { title: "Product Lists", description: "11 components" },
+      { title: "Category Previews", description: "6 components" },
+      { title: "Shopping Carts", description: "6 components" },
+      { title: "Category Filters", description: "5 components" },
+      { title: "Product Quickviews", description: "4 components" },
+      { title: "Product Features", description: "9 components" },
+      { title: "Store Navigation", description: "5 components" },
+      { title: "Promo Sctions", description: "8 components" },
+      { title: "Checkout Forms", description: "5 components" },
+      { title: "Reviews", description: "4 components" },
+      { title: "Order Summaries", description: "4 components" },
+      { title: "Order History", description: "4 components" },
+      { title: "Incentives", description: "8 components" },
+    ],
+  },
+  {
+    title: "Page Examples",
+    sections: [
+      { title: "Storefront Pages", description: "4 components" },
+      { title: "Product Pages", description: "5 components" },
+      { title: "Category Pages", description: "5 components" },
+      { title: "Shopping Cart Pages", description: "3 components" },
+      { title: "Checkout Pages", description: "5 components" },
+      { title: "Order Detail Pages", description: "3 components" },
+      { title: "Order History Headings", description: "5 components" },
+    ],
+  },
+];

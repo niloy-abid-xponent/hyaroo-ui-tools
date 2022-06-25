@@ -46,21 +46,3 @@
         -moz-transform: translate(3rem, -7rem);
     }
 }
-
-.boxes,
-.boxIcons{
-    transition: 0.3s;
-}
-.boxes:hover .boxIcons,
-.boxes:focus .boxIcons{
-    background-color: #006CFB;
-    transition: 0.3s;
-}
-.boxIcons img{
-    transition: 0.3s;
-}
-.boxes:hover .boxIcons img,
-.boxes:focus .boxIcons img{
-    filter: brightness(0) invert(1);
-    transition: 0.3s;
-}

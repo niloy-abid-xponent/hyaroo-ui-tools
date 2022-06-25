@@ -1,21 +1,22 @@
-export default function MarketingSection({ marketingDatas }) {
+export default function ECommerceSection({ eCommerceDatas }) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 lg:px-24">
-      <h2 className="text-2xl text-gray-900 font-extrabold mb-2">Marketing</h2>
+      <h2 className="text-2xl text-gray-900 font-extrabold mb-2">
+        Ecommerce
+      </h2>
       <p className="text-sm text-gray-500 border-b-2 pb-8">
-        Heroes, feature sections, newsletter sign up forms — everything you need
-        to build beautiful marketing websites.
+        Checkout forms, shopping carts, product views — everything you need to build your next ecommerce front-end.
       </p>
-      {marketingDatas.map((marketingData, i) => (
+      {eCommerceDatas.map((eCommerceData, i) => (
         <div
           key={i}
           className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:justify-between py-8 border-b-2 last:border-b-0"
         >
           <h3 className="flex-1 text-gray-900 font-semibold">
-            {marketingData.title}
+            {eCommerceData.title}
           </h3>
           <div className="grid sm:grid-cols-3 flex-[3] gap-6 ">
-            {marketingData.sections.map((section, i) => (
+            {eCommerceData.sections.map((section, i) => (
               <div className="border border-gra rounded-lg flex flex-col cursor-pointer">
                 <div
                   key={i}
