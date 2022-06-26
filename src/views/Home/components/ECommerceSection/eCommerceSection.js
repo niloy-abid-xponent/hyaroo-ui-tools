@@ -1,11 +1,10 @@
 export default function ECommerceSection({ eCommerceDatas }) {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 lg:px-24">
-      <h2 className="text-2xl text-gray-900 font-extrabold mb-2">
-        Ecommerce
-      </h2>
+      <h2 className="text-2xl text-gray-900 font-extrabold mb-2">Ecommerce</h2>
       <p className="text-sm text-gray-500 border-b-2 pb-8">
-        Checkout forms, shopping carts, product views — everything you need to build your next ecommerce front-end.
+        Checkout forms, shopping carts, product views — everything you need to
+        build your next ecommerce front-end.
       </p>
       {eCommerceDatas.map((eCommerceData, i) => (
         <div

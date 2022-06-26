@@ -51,10 +51,10 @@ export default function Header() {
                 <MenuIcon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
             </div>
-            <Popover.Group as="nav" className="hidden md:flex space-x-10">
+            <Popover.Group as="nav" className="hidden md:flex space-x-5">
               {navItems.map((nav) => (
                 <Link href={nav.href} key={nav.href}>
-                  <a className="text-base font-medium text-gray-500 hover:text-white">
+                  <a className="text-sm font-medium text-slate-500 hover:text-slate-700 ">
                     {nav.name}
                   </a>
                 </Link>

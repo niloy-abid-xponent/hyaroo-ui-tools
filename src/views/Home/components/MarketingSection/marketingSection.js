@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function MarketingSection({ marketingDatas }) {
+  const router = useRouter();
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-16 lg:px-24">
       <h2 className="text-2xl text-gray-900 font-extrabold mb-2">Marketing</h2>
@@ -18,8 +20,12 @@ export default function MarketingSection({ marketingDatas }) {
           </h3>
           <div className="grid sm:grid-cols-3 flex-[3] gap-6 ">
             {marketingData.sections.map((section, i) => (
-              <Link href={`/marketing/`}>
-                <div className="border border-gra rounded-lg flex flex-col cursor-pointer">
+              <div
+                onClick={() => {
+                  router.push(`marketing/${section.href}`);
+                }}
+              >
+                <div className="border border-gray rounded-lg flex flex-col cursor-pointer">
                   <div
                     key={i}
                     className="text-center bg-gray-100 h-32 rounded-t-lg"
@@ -42,7 +48,7 @@ export default function MarketingSection({ marketingDatas }) {
                     </p>
                   </div>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         </div>

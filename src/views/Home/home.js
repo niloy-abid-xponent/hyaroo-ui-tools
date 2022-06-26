@@ -3,10 +3,11 @@ import Head from "next/head";
 
 import {
   MarketingSection,
-  ApplicationUISection,
-  ECommerceSection,
+  // ApplicationUISection,
+  // ECommerceSection,
 } from "./components";
-import { marketingDatas, applicationUIDatas, eCommerceDatas } from "./Data";
+import { marketingDatas } from "./Data";
+// applicationUIDatas, eCommerceDatas
 
 export default function Home() {
   return (
@@ -31,8 +32,8 @@ export default function Home() {
       </div>
       <div className="bg-gray-50 py-5">
         <MarketingSection marketingDatas={marketingDatas} />
-        <ApplicationUISection applicationUIDatas={applicationUIDatas} />
-        <ECommerceSection eCommerceDatas={eCommerceDatas} />
+        {/* <ApplicationUISection applicationUIDatas={applicationUIDatas} />
+        <ECommerceSection eCommerceDatas={eCommerceDatas} /> */}
       </div>
     </>
   );
