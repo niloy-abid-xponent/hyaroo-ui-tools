@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../../src/layout";
-import FirstExample from "../../../src/views/Home/components/MarketingSection/hero/firstHero";
+import FirstExample from "../../../src/views/Home/components/MarketingSection/hero/firstExample";
 export default function HeroSections() {
   return (
     <Layout>
