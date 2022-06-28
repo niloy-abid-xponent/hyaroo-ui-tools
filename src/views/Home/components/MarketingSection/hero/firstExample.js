@@ -1,10 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const data = [{ title: "Preview" }, { title: "Code" }];
 
 export default function FirstExample() {
   const [active, setActive] = useState("Preview");
+  const [copy, setCopy] = useState(false);
+  const [value, setValue] = useState();
+  const [render, setRender] = useState(false);
+  const textRef = useRef();
+  // useEffect(() => {
+  //   // setValue(textRef.current?.innerText);
+  // }, [render]);
+  // setValue(textRef.current?.innerText);
+  console.log(value);
 
   return (
     <>
@@ -18,8 +27,9 @@ export default function FirstExample() {
 
         <div className="flex gap-x-6 items-center">
           <nav className="flex border rounded-lg  bg-slate-100 text-sm cursor-pointer">
-            {data.map((sData) => (
+            {data.map((sData, index) => (
               <span
+                key={index}
                 className={`${
                   active === sData.title &&
                   ` bg-white text-slate-900  rounded-lg`
@@ -44,8 +54,12 @@ export default function FirstExample() {
             </select>
           </div>
 
-          <CopyToClipboard>
-            <button className="pl-8 py-1 border-l-2">
+          <CopyToClipboard text={value}>
+            <button
+              className="pl-8 py-1 border-l-2"
+              onCopy={() => setCopy(true)}
+              onClick={() => setRender(true)}
+            >
               <img src="/clipboard.svg" className="w-4 h-4"></img>
             </button>
           </CopyToClipboard>
@@ -54,9 +68,11 @@ export default function FirstExample() {
       (sdata) => active === sdata.title && <div>this is {sdata.title} </div>
     )} */}
       </div>
-      {active === "Preview" && <div className="text-center mt-12">this is preview</div>}
+      {active === "Preview" && (
+        <div className="text-center mt-12">this is preview</div>
+      )}
       {active === "Code" && (
-        <div className="text-center mt-12">
+        <div className="text-center mt-12" id="copyCode" ref={textRef}>
           This is code
         </div>
       )}
